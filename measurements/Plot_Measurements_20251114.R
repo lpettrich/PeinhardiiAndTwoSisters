@@ -177,8 +177,8 @@ for (char in unique(d$Characters)) {
           legend.position="right") 
   
   print(p)
-  ggsave(paste0("plot_", char, ".png"), plot = p, width = 6, height = 4)
-  ggsave(paste0("plot_", char, ".svg"), plot = p, width = 6, height = 4)
+  ggsave(paste0("plot_", char, ".png"), plot = p, width = 8, height = 4)
+  ggsave(paste0("plot_", char, ".svg"), plot = p, width = 8, height = 4)
 }
 
 # --- Pairwise overlap check ---
